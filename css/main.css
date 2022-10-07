@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/15.jpg);
+}
+.container .searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .searchbox button {
+  height: 40px;
+  width: 60px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #ff9f0e;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+.container .searchbox button:hover {
+  filter: saturate(70%);
+}
+.container .searchbox input {
+  height: 40px;
+  border: 1px solid gray;
+  padding: 0px 5px;
+  border-radius: 3px;
+}
+.container .circle {
+  margin-top: 20px;
+}
+.container > span {
+  font-size: 2rem;
+}
+
+.error-massage {
+  font-size: 0.9rem;
+  color: #ff9f0e;
+  margin-top: 50px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.c100 {
+  display: none;
+}
+
+.circle {
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+.message .loading {
+  color: #ff9f0e;
+  display: none;
+  text-align: left;
+}
+.message .success {
+  color: green;
+  display: none;
+}/*# sourceMappingURL=main.css.map */

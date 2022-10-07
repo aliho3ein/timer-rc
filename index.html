@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.1/dist/font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Timer</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchbox">
+        <button id="start-counter">Start</button>
+        <input type="text" id="input-counter" placeholder="Enter ur time" />
+      </div>
+      <div class="error-massage active"></div>
+      <div class="c100 circle">
+        <span id="time" class="fa-solid"></span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+      <div class="message">
+        <span class="loading">in progress </span>
+        <span class="success">Lets do it again ;)</span>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
